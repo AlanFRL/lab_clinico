@@ -36,14 +36,5 @@ class DatabaseSeeder extends Seeder
 
         $this->call(SelectanalisisSeeder::class);
 
-
-
-        //USER ID 8
-        \App\Models\User::factory()->create([
-            'name' => 'admin',
-            'email' => 'admin@example.com',
-            'password'=>'12345678'
-        ]);
-
     }
 }
